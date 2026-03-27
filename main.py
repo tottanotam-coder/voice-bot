@@ -1,12 +1,11 @@
 import os
 import subprocess
 import tempfile
-import shutil
 import logging
 from aiogram import Bot, Dispatcher, types
 from aiogram.utils import executor
 
-# ========== УСТАНОВКА FFMpeg (как в прошлом боте) ==========
+# ========== УСТАНОВКА FFMPEG (как в вашем работающем боте) ==========
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
